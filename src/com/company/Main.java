@@ -13,8 +13,7 @@ public class Main {
         */
 	    int [] actualQ1 = Q1.twoSum(new int[]{2,7,11,15}, 9);
 	    int [] expectQ1 = new int[]{0,1};
-	    System.out.println("Q1 2sum test is "+ (actualQ1[0]==expectQ1[0] && actualQ1[1]==expectQ1[1]));
-        System.out.println("sdjnafknds".substring(2,2));
+	    System.out.println("Q1 - 2sum test is "+ (actualQ1[0]==expectQ1[0] && actualQ1[1]==expectQ1[1]));
 
         /* Q3 - Longest substirng without repeating characters
             Given a string, find the length of the longest substring without repeating characters.
@@ -27,5 +26,13 @@ public class Main {
         int expectQ3 = 3;
         System.out.println("Q3 - Longest substirng without repeating characters is " + (actualQ3==expectQ3));
 
+        /*
+            Q9 - isPalindrome number
+            Example :   121 true
+                        -121 false
+         */
+        boolean actualQ9 = Q9.isPalindrome(12321);
+        boolean expectQ9 = true;
+        System.out.println("Q9 - Palindrome Number test is" + (actualQ9==expectQ9));
     }
 }
