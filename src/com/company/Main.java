@@ -1,4 +1,8 @@
 package com.company;
+
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -34,5 +38,14 @@ public class Main {
         boolean actualQ9 = Q9.isPalindrome(12321);
         boolean expectQ9 = true;
         System.out.println("Q9 - Palindrome Number test is" + (actualQ9==expectQ9));
+
+        /*
+            Q17 - Letter Combinations of a Phone Number
+            Example :   input  "23"
+                        output ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+         */
+        List<String> actualQ17 = Q17.letterCombinations("23");
+        List<String> expectQ17 = Arrays.asList(new String[]{"ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"});
+        System.out.println("Q17 - phone number letterCombinations test is " + (actualQ17.equals(expectQ17)));
     }
 }
