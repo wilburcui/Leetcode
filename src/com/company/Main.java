@@ -47,5 +47,19 @@ public class Main {
         List<String> actualQ17 = Q17.letterCombinations("23");
         List<String> expectQ17 = Arrays.asList(new String[]{"ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"});
         System.out.println("Q17 - phone number letterCombinations test is " + (actualQ17.equals(expectQ17)));
+
+        /*  Q200 - Number of Islands
+            Input:
+                11110
+                11010
+                11000
+                00000
+
+            Output: 1
+         */
+        char[][] grid = new char[][]{{'1','1','1'},{'1','0','0'},{'0','0','1',}};
+        int actualQ200 = Q200.numIslands(grid);
+        int expectQ200 = 2;
+        System.out.println("Q200 - Number of Islands test is " + (actualQ200 == expectQ200));
     }
 }
