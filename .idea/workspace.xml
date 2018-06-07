@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401382a8-fb29-4e73-be74-dc1df2d1270c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Q139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Q200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Q846.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +36,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q139.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q139.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Q139.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q846.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Q846.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#368#386#0" expanded="true" />
+                <element signature="e#1019#1037#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Q200.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Q139.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Q846.java" />
       </list>
     </option>
   </component>
@@ -137,8 +149,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="36" />
+    <option name="x" value="549" />
+    <option name="y" value="-1057" />
     <option name="width" value="1110" />
     <option name="height" value="937" />
   </component>
@@ -237,15 +249,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528227345843</updated>
-      <workItem from="1528227350449" duration="19169000" />
+      <workItem from="1528227350449" duration="22395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19169000" />
+    <option name="totallyTimeSpent" value="22395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="36" width="1110" height="937" extended-state="0" />
+    <frame x="549" y="-1057" width="1110" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -257,12 +269,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33371958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33371958" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16036037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16036037" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Hybris Console [Experimental]" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -348,8 +360,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Q139.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Q846.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#386#0" expanded="true" />
+            <element signature="e#1019#1037#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
