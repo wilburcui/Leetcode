@@ -1,4 +1,8 @@
 package com.company;
+
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,8 +17,7 @@ public class Main {
         */
 	    int [] actualQ1 = Q1.twoSum(new int[]{2,7,11,15}, 9);
 	    int [] expectQ1 = new int[]{0,1};
-	    System.out.println("Q1 2sum test is "+ (actualQ1[0]==expectQ1[0] && actualQ1[1]==expectQ1[1]));
-        System.out.println("sdjnafknds".substring(2,2));
+	    System.out.println("Q1 - 2sum test is "+ (actualQ1[0]==expectQ1[0] && actualQ1[1]==expectQ1[1]));
 
         /* Q3 - Longest substirng without repeating characters
             Given a string, find the length of the longest substring without repeating characters.
@@ -27,5 +30,36 @@ public class Main {
         int expectQ3 = 3;
         System.out.println("Q3 - Longest substirng without repeating characters is " + (actualQ3==expectQ3));
 
+        /*
+            Q9 - isPalindrome number
+            Example :   121 true
+                        -121 false
+         */
+        boolean actualQ9 = Q9.isPalindrome(12321);
+        boolean expectQ9 = true;
+        System.out.println("Q9 - Palindrome Number test is" + (actualQ9==expectQ9));
+
+        /*
+            Q17 - Letter Combinations of a Phone Number
+            Example :   input  "23"
+                        output ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+         */
+        List<String> actualQ17 = Q17.letterCombinations("23");
+        List<String> expectQ17 = Arrays.asList(new String[]{"ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"});
+        System.out.println("Q17 - phone number letterCombinations test is " + (actualQ17.equals(expectQ17)));
+
+        /*  Q200 - Number of Islands
+            Input:
+                11110
+                11010
+                11000
+                00000
+
+            Output: 1
+         */
+        char[][] grid = new char[][]{{'1','1','1'},{'1','0','0'},{'0','0','1',}};
+        int actualQ200 = Q200.numIslands(grid);
+        int expectQ200 = 2;
+        System.out.println("Q200 - Number of Islands test is " + (actualQ200 == expectQ200));
     }
 }
